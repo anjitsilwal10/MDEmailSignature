@@ -221,7 +221,11 @@ const EmailSignature = () => {
                     <table>
                         <tr className='strip'>
                             <td className=''>
-                                    <img className='dp' src={dpicture} alt="Agent" />
+                                    {
+                                        dpicture && (
+                                            <img className='dp' src={dpicture} alt="Agent" />
+                                        )
+                                    }
                             </td>
                         </tr>
                     </table>
