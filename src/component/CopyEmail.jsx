@@ -203,20 +203,6 @@ const EmailSignature = () => {
                         Kind Regards,
                     </p>
                     
-                    {/* <table className='table-strip'>
-                        <tr className='strip'>
-                            <td className='dp-strip'>
-                                <img className='strip' src={dpicture} alt='person'/>
-                            </td>
-                           
-                        </tr>
-                    </table> */}
-
-                    {/* <div className="strip">
-                        <div className="rounded-div">
-                            <img className="image" src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
-                        </div>
-                     </div>  */}
 
                     <table>
                         <tr className='strip'>
@@ -291,7 +277,8 @@ const EmailSignature = () => {
                                     <tr>
                                         <td id='info-logo'>
                                             <a target='_blank' rel='noreferrer' href = {`tel:${phone}`}>
-                                                <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/phone.png' alt='contact'/>
+                                                {/* <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/phone.png' alt='contact'/> */}
+                                                <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/website.png' alt='contact'/>
                                             </a>
                                         </td>
 
@@ -308,7 +295,8 @@ const EmailSignature = () => {
                                     <tr>
                                        <td id='info-logo'>
                                         <a target='_blank' rel='noreferrer' href = {`mailto:${email}`}>
-                                                <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/email.png' alt='contact'/>
+                                                {/* <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/email.png' alt='contact'/> */}
+                                                <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/email.png' alt='contact'/>
                                         </a>
                                        </td>
 
@@ -325,7 +313,8 @@ const EmailSignature = () => {
                                     <tr>
                                         <td id='info-logo'>
                                             <a target='_blank' rel='noreferrer' href= {location}>
-                                                <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/location.png' alt='contact'/>
+                                                {/* <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/location.png' alt='contact'/> */}
+                                                <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/location.png' alt='contact'/>
                                             </a>
                                         </td>
 
@@ -342,7 +331,8 @@ const EmailSignature = () => {
                                     <tr>
                                         <td id='info-logo'>
                                             <a href = {website} target= '_blank' rel='noreferrer'>
-                                                <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/website.png' alt='contact'/>
+                                                {/* <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/website.png' alt='contact'/> */}
+                                                <img id='contact-info' src='https://dasraa.com/MultiDynamicEmail/website.png' alt='contact'/>
                                             </a>
                                         </td>
 
