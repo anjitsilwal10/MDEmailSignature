@@ -241,35 +241,35 @@ const EmailSignature = () => {
                                     {facebook && (
                                         <a href={facebook} target='_blank' rel='noreferrer'>
                                             {/* <img src='https://dasraa.com/MultiDynamicEmail/facebook.png' alt='facebook'/> */}
-                                            <img src='https:/dasraa.com/MultiDynamicEmail/Sig-Icons/facebook.png' alt='facebook'/>
+                                            <img src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/facebook.png' alt='facebook'/>
                                         </a>
                                     )}
 
                                     {instagram &&(
                                         <a href={instagram} target='_blank' rel='noreferrer'>
                                             {/* <img src='https://dasraa.com/MultiDynamicEmail/insta.png' alt='instagram'/> */}
-                                            <img src='https:/dasraa.com/MultiDynamicEmail/Sig-Icons/instagram.png' alt='instagram'/>
+                                            <img src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/instagram.png' alt='instagram'/>
                                         </a>
                                     )}
 
                                     {linkedin &&(
                                         <a href={linkedin} target='_blank' rel='noreferrer'>
                                             {/* <img src='https://dasraa.com/MultiDynamicEmail/linkedin.png' alt='linkedin'/> */}
-                                            <img src='https:/dasraa.com/MultiDynamicEmail/Sig-Icons/linkedin.png' alt='linkedin'/>
+                                            <img src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/linkedin.png' alt='linkedin'/>
                                         </a>
                                     )}
 
                                     {twitter && (
                                         <a href={twitter} target='_blank' rel='noreferrer'>
                                             {/* <img src='https://dasraa.com/MultiDynamicEmail/twitter.png' alt='twitter'/> */}
-                                            <img src='https:/dasraa.com/MultiDynamicEmail/Sig-Icons/twitterx.png' alt='twitter'/>
+                                            <img src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/twitterx.png' alt='twitter'/>
                                         </a>
                                     )}
 
                                     {youtube &&(
                                         <a href={youtube} target='_blank' rel='noreferrer'>
                                             {/* <img src='https://dasraa.com/MultiDynamicEmail/youtube.png' alt='youtube'/> */}
-                                            <img src='https:/dasraa.com/MultiDynamicEmail/Sig-Icons/youtube.png' alt='youtube'/>
+                                            <img src='https://dasraa.com/MultiDynamicEmail/Sig-Icons/youtube.png' alt='youtube'/>
                                         </a>
                                     )}
 
